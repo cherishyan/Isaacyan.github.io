@@ -6,21 +6,41 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://cherishyan.github.io">
-  <title>Hello World | cherishyan的博客</title>
+  <title>Android MVP实践 | cherishyan的博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick">
+  <meta name="description" content="示例代码上传在我的repo Widget中，并长期更新一些有意思的小组件或者功能。Star~
+
+1.  MVP or MVC从年初的时候就了解过MVP的概念，但是一直没有付诸实践，最近需要将项目架构从MVC -&amp;gt; MVP ，由此记录下实践中的心得。
+
+如果不太了解MVC 和 MVP的概念和区别，建议搜索学习一下，比如：MVC，MVP 和 MVVM 的图示
+引用腾讯Bugly的话：
+
+MVC">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="http://cherishyan.github.io/2016/12/29/hello-world/index.html">
+<meta property="og:title" content="Android MVP实践">
+<meta property="og:url" content="http://cherishyan.github.io/2016/12/30/Android-MVP实践/index.html">
 <meta property="og:site_name" content="cherishyan的博客">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick">
-<meta property="og:updated_time" content="2016-12-29T08:05:16.000Z">
+<meta property="og:description" content="示例代码上传在我的repo Widget中，并长期更新一些有意思的小组件或者功能。Star~
+
+1.  MVP or MVC从年初的时候就了解过MVP的概念，但是一直没有付诸实践，最近需要将项目架构从MVC -&amp;gt; MVP ，由此记录下实践中的心得。
+
+如果不太了解MVC 和 MVP的概念和区别，建议搜索学习一下，比如：MVC，MVP 和 MVVM 的图示
+引用腾讯Bugly的话：
+
+MVC">
+<meta property="og:image" content="http://upload-images.jianshu.io/upload_images/1115152-13eb96584c88b513.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:updated_time" content="2016-12-30T02:31:16.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hello World">
-<meta name="twitter:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick">
+<meta name="twitter:title" content="Android MVP实践">
+<meta name="twitter:description" content="示例代码上传在我的repo Widget中，并长期更新一些有意思的小组件或者功能。Star~
+
+1.  MVP or MVC从年初的时候就了解过MVP的概念，但是一直没有付诸实践，最近需要将项目架构从MVC -&amp;gt; MVP ，由此记录下实践中的心得。
+
+如果不太了解MVC 和 MVP的概念和区别，建议搜索学习一下，比如：MVC，MVP 和 MVVM 的图示
+引用腾讯Bugly的话：
+
+MVC">
+<meta name="twitter:image" content="http://upload-images.jianshu.io/upload_images/1115152-13eb96584c88b513.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
   
     <link rel="alternative" href="/atom.xml" title="cherishyan的博客" type="application/atom+xml">
   
@@ -42,7 +62,7 @@ Quick">
 <div class="intrude-less">
 	<header id="header" class="inner">
 		<a href="/" class="profilepic">
-			<img src="/assets/blogImg/img.jpg" class="js-avatar">
+			<img src="/assets/blogImg/img.png" class="js-avatar">
 		</a>
 		<hgroup>
 		  <h1 class="header-author"><a href="/">Cherishyan</a></h1>
@@ -99,7 +119,7 @@ Quick">
 	<div class="intrude-less">
 		<header id="header" class="inner">
 			<div class="profilepic">
-				<img src="/assets/blogImg/img.jpg" class="js-avatar">
+				<img src="/assets/blogImg/img.png" class="js-avatar">
 			</div>
 			<hgroup>
 			  <h1 class="header-author js-header-author">Cherishyan</h1>
@@ -152,57 +172,67 @@ Quick">
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-hello-world" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="post-Android-MVP实践" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      Hello World
+      Android MVP实践
     </h1>
   
 
-        <a href="/2016/12/29/hello-world/" class="archive-article-date">
-  	<time datetime="2016-12-29T08:05:16.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2016-12-29</time>
+        <a href="/2016/12/30/Android-MVP实践/" class="archive-article-date">
+  	<time datetime="2016-12-30T02:24:09.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2016-12-30</time>
 </a>
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+        <blockquote>
+<p>示例代码上传在我的repo <a href="https://github.com/cherishyan/Widgets" target="_blank" rel="external">Widget</a>中，并长期更新一些有意思的小组件或者功能。Star~</p>
+</blockquote>
+<h4 id="1-MVP-or-MVC"><a href="#1-MVP-or-MVC" class="headerlink" title="1.  MVP or MVC"></a>1.  MVP or MVC</h4><p>从年初的时候就了解过MVP的概念，但是一直没有付诸实践，最近需要将项目架构从MVC -&gt; MVP ，由此记录下实践中的心得。</p>
+<ul>
+<li><p>如果不太了解MVC 和 MVP的概念和区别，建议搜索学习一下，比如：<br><a href="http://www.ruanyifeng.com/blog/2015/02/mvcmvp_mvvm.html" target="_blank" rel="external">MVC，MVP 和 MVVM 的图示</a></p>
+<p>引用腾讯Bugly的话：</p>
+<blockquote>
+<p>MVC简单来讲，就是 Activity 或者 Fragment 直接与数据层交互，activity 通过 apiProvider 进行网络访问，或者通过 CacheProvider 读取本地缓存，然后在返回或者回调里对 Activity 的界面进行响应刷新。<br>  这样的结构在初期看来没什么问题，甚至可以很快的开发出来一个展示功能，但是业务一旦变得复杂了怎么办？<br>  我们作一个设想，假如一次数据访问可能需要同时访问 api 和 cache，或者一次数据请求需要请求两次 api。对于 activity 来说，它既与界面的展示，事件等有关系，又与业务数据层有着直接的关系，无疑 activity 层会极剧膨胀，变得极难阅读和维护。<br>  在这种结构下, activity 同时承担了 view 层和 controller 层的工作，所以我们需要给 activity 减负</p>
+</blockquote>
+</li>
+<li><p>不要为了使用而使用</p>
+</li>
+</ul>
+<p>Android项目的复杂度决定了需要使用的框架。如果一个Activity实现了上千行的代码，这个类就很难维护，而且不方便阅读。<br>但是一个业务并不复杂的项目使用MVP模式反而会增加代码量。所以我一直认为使用何种框架，根据业务需求和项目复杂度来定。</p>
+<hr>
+<h4 id="2-搭建MVP分层结构"><a href="#2-搭建MVP分层结构" class="headerlink" title="2. 搭建MVP分层结构"></a>2. 搭建MVP分层结构</h4><p>我们之前使用的MVC框架中，会在Activity或者Fragment中实现大量IO操作(无论是api调用还是cache，都可以看成IO过程)，以及一些业务逻辑处理。<br>随着功能越来越多，View层会急剧膨胀，这时我们需要将逻辑处理和数据处理分离出来，也就是说我们想达到的目的是View层只负责界面的显隐，而逻辑过程(Presenter)和数据过程(Model)将在其他地方处理。</p>
+<ul>
+<li>这里看网上的一个工程目录</li>
+</ul>
+<p><img src="http://upload-images.jianshu.io/upload_images/1115152-13eb96584c88b513.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="图片选自网络"></p>
+<p> <code>contract,presenter,model</code> 是我们要关注的包。</p>
+<p> contract是连接view层和presenter层的接口：</p>
+<p> 这里举一个修改用户信息的例子(修改密码，昵称，图片等)</p>
+ <figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">interface</span> <span class="title">IndividualContract</span> </span>&#123;</div><div class="line">    <span class="class"><span class="keyword">interface</span> <span class="title">View</span> </span>&#123;</div><div class="line"></div><div class="line">        <span class="comment">//         设置用户名称显示</span></div><div class="line">        <span class="function"><span class="keyword">void</span> <span class="title">setNickName</span><span class="params">(String name)</span></span>;</div><div class="line"></div><div class="line">        <span class="comment">//         设置用户性别显示</span></div><div class="line">        <span class="function"><span class="keyword">void</span> <span class="title">setUserSex</span><span class="params">(String sex)</span></span>;</div><div class="line"></div><div class="line">        <span class="comment">//         设置用户签名显示</span></div><div class="line">        <span class="function"><span class="keyword">void</span> <span class="title">setUserSign</span><span class="params">(String sign)</span></span>;</div><div class="line"></div><div class="line">        <span class="comment">//         设置用户账号显示</span></div><div class="line">        <span class="function"><span class="keyword">void</span> <span class="title">setUserCode</span><span class="params">(String code)</span></span>;</div><div class="line"></div><div class="line">        <span class="comment">//         设置用户头像显示</span></div><div class="line">        <span class="function"><span class="keyword">void</span> <span class="title">setUserHead</span><span class="params">(String code)</span></span>;</div><div class="line"></div><div class="line">        <span class="function"><span class="keyword">void</span> <span class="title">showDialog</span><span class="params">()</span></span>;</div><div class="line"></div><div class="line">        <span class="function"><span class="keyword">void</span> <span class="title">hideDialog</span><span class="params">()</span></span>;</div><div class="line"></div><div class="line">    &#125;</div><div class="line"></div><div class="line">    <span class="class"><span class="keyword">interface</span> <span class="title">Presenter</span> </span>&#123;</div><div class="line"></div><div class="line">        <span class="function"><span class="keyword">void</span> <span class="title">initData</span><span class="params">()</span></span>;</div><div class="line"></div><div class="line">        <span class="function"><span class="keyword">void</span> <span class="title">changeNikeName</span><span class="params">(String title, String sign)</span></span>;</div><div class="line"></div><div class="line">        <span class="function"><span class="keyword">void</span> <span class="title">changeSex</span><span class="params">(String title, String gender)</span></span>;</div><div class="line"></div><div class="line">        <span class="function"><span class="keyword">void</span> <span class="title">changeSign</span><span class="params">(String title, String sign)</span></span>;</div><div class="line"></div><div class="line">        <span class="function"><span class="keyword">void</span> <span class="title">changeHead</span><span class="params">(String title, String button)</span></span>;</div><div class="line"></div><div class="line">        <span class="comment">//         设置用户头像显示</span></div><div class="line">        <span class="function"><span class="keyword">void</span>  <span class="title">setUserHead</span><span class="params">()</span></span>;</div><div class="line"></div><div class="line">        <span class="function"><span class="keyword">void</span> <span class="title">updateUser</span><span class="params">()</span></span>;</div><div class="line"></div><div class="line">        <span class="function"><span class="keyword">void</span> <span class="title">hideDialog</span><span class="params">()</span></span>;</div><div class="line"></div><div class="line">        <span class="function"><span class="keyword">void</span> <span class="title">updateResult</span><span class="params">(<span class="keyword">int</span> requestCode, Intent data)</span></span>;</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p> 在<code>IndividualContract</code>中，我们实现了修改用户信息过程中需要实现的Presenter逻辑处理，View层的显示处理。</p>
+<p> 这还看不出来什么，我们直接看看Presenter的实现：</p>
+ <figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">IndividualPresenter</span> <span class="keyword">implements</span> <span class="title">IndividualContract</span>.<span class="title">Presenter</span> </span>&#123;</div><div class="line">    <span class="keyword">private</span> IndividualContract.View mView;</div><div class="line">    <span class="keyword">private</span> Activity mActivity;</div><div class="line">    ChangeUserInfoBean mChangeUserInfoBean;</div><div class="line">    <span class="function"><span class="keyword">public</span> Context <span class="title">getContext</span><span class="params">()</span></span>&#123;</div><div class="line">        <span class="keyword">return</span>  mActivity;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    <span class="function"><span class="keyword">public</span> <span class="title">IndividualPresenter</span><span class="params">(IndividualContract.View view, Activity activity)</span> </span>&#123;</div><div class="line">        <span class="keyword">this</span>.mView = view;</div><div class="line">        <span class="keyword">this</span>.mActivity = activity;</div><div class="line">        mChangeUserInfoBean = <span class="keyword">new</span> ChangeUserInfoBean(<span class="keyword">this</span>);</div><div class="line">    &#125;</div><div class="line">    ...</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p> <code>IndividualPresenter</code>实现了<code>IndividualContract.Presenter</code>，Activity中需要做的逻辑处理将会在IndividualPresenter实现。</p>
+<p> 注意实例化的时候，我们传入了view层的对象<code>IndividualContract.View view</code>和activity(当然这不是固定的)，有什么用？</p>
+<p> 比如我们需要在修改头像的时候显示一个ProgressDialog，修改成功以后隐藏它，我们就需要通知View层去做Dialog的显隐，而intent跳转就需要activity的实例，如：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="meta">@Override</span></div><div class="line">  <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setUserHead</span><span class="params">()</span> </span>&#123;</div><div class="line">      mView.setUserHead( mChangeUserInfoBean.getmUser().getHeadImg());</div><div class="line">  &#125;</div></pre></td></tr></table></figure>
+<p>view层由Activity或者Fragment实现，到这里我们概括一下：</p>
+<p>Contract实现了View层和Presenter层分别要去做的事情，View层实现业务逻辑完成以后的界面处理，Presenter层处理各种逻辑处理，并通知View层处理各种逻辑处理过程中需要展示的界面。</p>
+<p>以上一直没有提到数据处理的部分，即代码中我定义的<code>ChangeUserInfoBean</code>。单独说数据层是因为在最初Presenter层处理的时候，我没有将数据和逻辑分离出来，导致Presenter同样臃肿。</p>
+<p>比如本地对用户信息做了修改以后，我们希望将修改信息上传至服务器，在Presenter中 ：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="meta">@Override</span></div><div class="line">   <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">updateUser</span><span class="params">()</span> </span>&#123;</div><div class="line">       mView.showDialog();</div><div class="line">       mChangeUserInfoBean.changeUser();</div><div class="line">   &#125;</div></pre></td></tr></table></figure>
+<p>在<code>ChangeUserInfoBean</code>中，我们做网络请求等处理，完成修改用户信息逻辑。<strong>网络请求数据，或者内存持有数据，都应该交给数据层，即Presenter中都是逻辑处理，Model中实现数据持有或者数据API获取。</strong></p>
+<p>至于View层的实现：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">IndividualCenterActivity</span> <span class="keyword">extends</span> <span class="title">BaseActivity</span> <span class="keyword">implements</span> <span class="title">IndividualContract</span>.<span class="title">View</span> </span>&#123;</div><div class="line">    </div><div class="line">        <span class="keyword">private</span> IndividualContract.Presenter mPresenter;</div><div class="line">        </div><div class="line">        <span class="meta">@Override</span></div><div class="line">        <span class="function"><span class="keyword">protected</span> <span class="keyword">void</span> <span class="title">onCreate</span><span class="params">(Bundle savedInstanceState)</span> </span>&#123;</div><div class="line">            <span class="keyword">super</span>.onCreate(savedInstanceState);</div><div class="line">            setContentView(R.layout.individual);</div><div class="line">            mPresenter = <span class="keyword">new</span> IndividualPresenter(<span class="keyword">this</span>,<span class="keyword">this</span>);</div><div class="line">        &#125;</div><div class="line">        </div><div class="line">        ...</div><div class="line">    </div><div class="line">    </div><div class="line">        <span class="meta">@Override</span></div><div class="line">        <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setUserHead</span><span class="params">(String headURL)</span> </span>&#123;</div><div class="line">            ImageLoader.getInstance().displayImage(headURL, mHeadView, options);</div><div class="line">        &#125;</div><div class="line">    </div><div class="line">        <span class="meta">@Override</span></div><div class="line">        <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">showDialog</span><span class="params">()</span> </span>&#123;</div><div class="line">            showProgressDialog();</div><div class="line">        &#125;</div><div class="line">    </div><div class="line">        <span class="meta">@Override</span></div><div class="line">        <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">hideDialog</span><span class="params">()</span> </span>&#123;</div><div class="line">            hideProgressDialog();</div><div class="line">        &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 
       
 
-      
-        <div class="page-reward">
-          <a href="javascript:;" class="page-reward-btn tooltip-top">
-            <div class="tooltip tooltip-east">
-            <span class="tooltip-item">
-              赏
-            </span>
-            <span class="tooltip-content">
-              <span class="tooltip-text">
-                <span class="tooltip-inner">
-                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i class="icon icon-quo-right"></i></p>
-                  <div class="reward-box">
-                    
-                    
-                  </div>
-                </span>
-              </span>
-            </span>
-          </div>
-          </a>
-        </div>
       
     </div>
     <div class="article-info article-info-index">
@@ -258,7 +288,7 @@ Quick">
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="http://s.jiathis.com/qrcode.php?url=http://cherishyan.github.io/2016/12/29/hello-world/" alt="微信分享二维码">
+      <img src="http://s.jiathis.com/qrcode.php?url=http://cherishyan.github.io/2016/12/30/Android-MVP实践/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -273,6 +303,26 @@ Quick">
 
 
 
+
+
+<div class="duoshuo">
+	<!-- 多说评论框 start -->
+	<div class="ds-thread" data-thread-key="Android-MVP实践" data-title="Android MVP实践" data-url="http://cherishyan.github.io/2016/12/30/Android-MVP实践/"></div>
+	<!-- 多说评论框 end -->
+	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+	<script type="text/javascript">
+	var duoshuoQuery = {short_name:"cherishyan"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		 || document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+	<!-- 多说公共JS代码 end -->
+</div>
 
 
 
